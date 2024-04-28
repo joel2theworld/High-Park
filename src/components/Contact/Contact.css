@@ -1,0 +1,47 @@
+.container-1 {
+  background: url('../../assets/Rectangle\ 18.png');
+  position: relative;
+  background-size: cover;
+  margin-bottom: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.6rem 0 6.4rem 0;
+  box-sizing: border-box;
+}
+.become-aclient-get-discount {
+  overflow-wrap: break-word;
+  font-family: 'Shippori Antique';
+  font-weight: 400;
+  font-size: 3.1rem;
+  line-height: 2;
+  color: #FFFFFF;
+}
+.new-clients-will-get-20-discount {
+  margin: 0 1.8rem 6rem 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.group-231 {
+  border-radius: 0.3rem;
+  background: #FFFFFF;
+  margin-right: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.2rem 0.1rem 1.2rem 0;
+  width: 16rem;
+  box-sizing: border-box;
+}
+.read-more-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #000000;
+}

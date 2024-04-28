@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  font-family: "Montserrat";
+  padding: 5rem 3rem 5rem 3rem;
+  justify-content: space-evenly;
+  border-top: 2px solid black;
+}
+.c1 {
+  display: flex;
+  flex-direction: column;
+  margin: 2.6rem 7.2rem 0 0;
+  box-sizing: border-box;
+}
+
+.hp {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.5rem;
+  line-height: 0.667;
+  color: #000000;
+}
+.arch {
+  left: 50%;
+  margin-top: 5px;
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 0rem;
+  line-height: 2;
+  color: #000000;
+}
+.para {
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #000000;
+}
+.cntct, .menulink, .social {
+  position: relative;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Shippori Antique';
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2;
+  color: #000000;
+}
+.landing-page .tell-2348156309890 {
+  position: absolute;
+  left: 0rem;
+  top: 5.6rem;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.875;
+  color: #000000;
+}
+ .contac, .menu-items, .social-items {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9;
+  
+} 
+.menu-items{
+    display: flex;
+    flex-direction: column;
+}

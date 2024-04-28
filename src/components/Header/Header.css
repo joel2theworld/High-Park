@@ -1,0 +1,73 @@
+.header {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.7rem 8.8rem 1.7rem 5rem;
+  /* width: 100vw; */
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+.logo {
+  width: 15.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.high-park {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.5rem;
+  line-height: 0.667;
+  color: #000000;
+}
+.architecture-interior-architecture {
+  left: 50%;
+  margin-top: 5px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 0rem;
+  line-height: 2;
+  color: #000000;
+}
+.menu{
+  margin: 0.6rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 26.9rem;
+  height: fit-content;
+  box-sizing: border-box;
+
+}
+.home {
+  margin-right: 0.8rem;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+}
+.service {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+}
+.projects {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+}
+.about-us {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+}
