@@ -1,15 +1,17 @@
 import React from "react";
-import './About.css'
+import "./About.css";
 import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
+import Banner from "../../assets/banner.png";
 
 const About = () => {
   return (
     <div>
       <Header />
-      <HeroSection title="A NEW PARADIGM FOR  ARCHITECTURAL DESIGN" />
+      <HeroSection title="ABOUT HIGH PARK" />
+      <img src={Banner} className="banner"></img>
       <div className="aboutcomplete">
         <div className="abouty">About Us</div>
         <p className="aboutext">

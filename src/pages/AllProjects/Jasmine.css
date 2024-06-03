@@ -1,0 +1,8 @@
+.jasminee-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.jasminee-2 img{
+  width: 20rem;
+  border-radius: 30px;
+}

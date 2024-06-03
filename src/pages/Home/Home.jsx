@@ -11,9 +11,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="home">
-        <HeroSection title="A NEW PARADIGM FOR  ARCHITECTURAL DESIGN" />
-      </div>
+      <HeroSection title="A NEW PARADIGM FOR ARCHITECTURAL DESIGN" />
+      <div className="home"></div>
       <div className="homePic"></div>
       <div className="about">
         <div className="about-pic"></div>
@@ -69,11 +68,11 @@ const Home = () => {
           <div className="rectangle-17"></div>
         </div>
       </div>
-     <Contact/>
+      <Contact />
       <div className="all-projects">
         <div className="our-projects">Our Projects</div>
         <div className="our-designs-projects-that-we-have-elavated-on-by-our-best-architects">
-          Our designs &amp; projects that we have elavated on by our best
+          Our designs &amp; projects executed by our best
           architects.
         </div>
         <div className="container-8">

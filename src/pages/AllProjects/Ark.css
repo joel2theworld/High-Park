@@ -1,0 +1,9 @@
+.arkcity{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+.arkcity img{
+    width: 35rem;
+    border-radius: 10px;
+}

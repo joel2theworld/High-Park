@@ -4,14 +4,16 @@ import Header from "../../components/Header/Header";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
+import Banner from "../../assets/banner.png";
 
 const Services = () => {
   return (
     <div>
       <Header />
-      <HeroSection title="A NEW PARADIGM FOR  ARCHITECTURAL DESIGN" />
+      <HeroSection title="HIGH PARK SERVICES" />
+      <img src={Banner} className="banner"></img>
       <div className="fullservices">
-        <div className="ourservices">Our Services</div>
+        {/* <div className="ourservices">Our Services</div> */}
         <p className="servicetext">
           1. <b>Architecture Design: </b>
           <br></br>High Park offers comprehensive architectural design services.

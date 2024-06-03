@@ -1,47 +1,90 @@
-.container-1 {
-  background: url('../../assets/Rectangle\ 18.png');
-  position: relative;
+.contact-container {
+  background: url('../../assets/Rectangle 18.png') no-repeat center center;
   background-size: cover;
-  margin-bottom: 11.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5.6rem 0 6.4rem 0;
-  box-sizing: border-box;
-}
-.become-aclient-get-discount {
-  overflow-wrap: break-word;
-  font-family: 'Shippori Antique';
-  font-weight: 400;
-  font-size: 3.1rem;
-  line-height: 2;
   color: #FFFFFF;
 }
-.new-clients-will-get-20-discount {
-  margin: 0 1.8rem 6rem 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
+
+.contact-title {
+  font-family: 'Shippori Antique', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
   line-height: 1.2;
-  color: #FFFFFF;
+  margin-bottom: 3rem;
 }
-.group-231 {
-  border-radius: 0.3rem;
-  background: #FFFFFF;
-  margin-right: 0.8rem;
+
+.contact-button-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  padding: 1.2rem 0.1rem 1.2rem 0;
-  width: 16rem;
-  box-sizing: border-box;
 }
-.read-more-1 {
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
+
+.contact-button {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
-  color: #000000;
+  padding: 1.2rem 2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 3rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .contact-button {
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 2rem 1rem;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .contact-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
 }

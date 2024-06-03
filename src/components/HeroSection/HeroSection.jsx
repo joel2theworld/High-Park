@@ -1,12 +1,13 @@
 import React from "react";
 import './HeroSection.css'
+
 const HeroSection = ({ title, content }) => {
   return (
     <div className="heroSection">
-      <div className="rectangle-151"></div>
+      <div className="rectangle"></div>
       <div className="banner">
-        <span className="anew-paradigm-for-architectural-designs">{title}</span>
-        <span className="subtitle">{content}</span>
+        <span className="title">{title}</span>
+        <span className="content">{content}</span>
       </div>
     </div>
   );

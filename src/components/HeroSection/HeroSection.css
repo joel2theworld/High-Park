@@ -1,14 +1,17 @@
 .heroSection {
   display: flex;
+  align-items: center;
   margin-bottom: 1rem;
 }
-.rectangle-151 {
+
+.rectangle {
   background: #000000;
   margin-right: 3.6rem;
   width: 1.2rem;
   height: 12rem;
 }
-.anew-paradigm-for-architectural-designs {
+
+.title {
   overflow-wrap: break-word;
   font-family: "Shippori Antique";
   font-weight: 400;
@@ -16,7 +19,8 @@
   line-height: 1.2;
   color: #000000;
 }
-.subtitle {
+
+.content {
   overflow-wrap: break-word;
   font-family: "Shippori Antique";
   font-weight: 400;
@@ -24,8 +28,37 @@
   line-height: 1.8;
   color: #000000;
 }
-.banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Center content vertically on small screens */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .heroSection {
+    /* flex-direction: column; */
+    margin-bottom: -55px;
+    margin-top: -25px;
+  }
+
+  .rectangle {
+height: 8rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem; /* Add space between rectangle and banner on small screens */
+  }
+
+  .title {
+    font-size: 3rem; /* Decrease font size for title on small screens */
+  }
+
+  .content {
+    font-size: 1.8rem; /* Decrease font size for content on small screens */
+  }
+
+  .banner {
+    align-items: center; /* Center content horizontally on small screens */
+    /* text-align: center; */
+  }
 }

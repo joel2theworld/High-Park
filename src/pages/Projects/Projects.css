@@ -1,0 +1,26 @@
+.projectzz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.projectzz img {
+  position: relative;
+  z-index: -1;
+  width: 400px;
+  border-radius: 10px;
+}
+.projtitle {
+  position: absolute;
+  color: white;
+  margin-left: 8px !important;
+  font-family: "Shippori Antique";
+  line-height: 0.3 !important;
+}
+.p-name {
+  font-size: 22px !important;
+}
+.p-loc {
+  font-size: 10px !important;
+}

@@ -269,3 +269,28 @@ align-items: center;
   width: 2.1rem;
   height: 2.1rem;
 }
+/* Media Queries */
+@media (max-width: 768px) {
+  
+  .home {
+    flex-direction: column;
+  }
+  .homePic{
+    height: 250px;
+    margin-bottom: 0;
+  }
+  .about-pic{
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  .container-6,
+  .container-10 {
+    width: 100%;
+  }
+}
+

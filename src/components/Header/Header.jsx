@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export default function Header() {
+const Header = () => {
   return (
     <div className="header">
       <div className="logo">
@@ -12,19 +12,13 @@ export default function Header() {
         </span>
       </div>
       <div className="menu">
-        <Link to={`/`} style={{ textDecoration: "none" }}>
-          <span className="home">Home</span>
-        </Link>
-        <Link to={`/about-us`} style={{ textDecoration: "none" }}>
-          <span className="about-us">About Us</span>
-        </Link>
-        <Link to={`/services`} style={{ textDecoration: "none" }}>
-          <span className="service">Services</span>
-        </Link>
-        <Link to={`/projects`} style={{ textDecoration: "none" }}>
-          <span className="projects">Projects</span>
-        </Link>
+        <NavLink exact to="/" className="menu-link" activeClassName="active">Home</NavLink>
+        <NavLink to="/about-us" className="menu-link" activeClassName="active">About Us</NavLink>
+        <NavLink to="/services" className="menu-link" activeClassName="active">Services</NavLink>
+        <NavLink to="/projects" className="menu-link" activeClassName="active">Projects</NavLink>
       </div>
     </div>
   );
-}
+};
+
+export default Header;

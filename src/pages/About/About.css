@@ -9,7 +9,7 @@
   overflow-wrap: break-word;
   font-family: 'Shippori Antique';
   font-weight: 400;
-  font-size: 4.7rem;
+  font-size: 4.2rem;
   line-height: 1.333;
   color: #000000;
 }
@@ -18,7 +18,12 @@ margin: 0 6rem 6.2rem 6.4rem;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 1.094;
   color: #000000;
+}
+.banner{
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }

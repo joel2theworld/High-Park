@@ -1,21 +1,18 @@
-import React from 'react'
-import './Contact.css'
+import React from 'react';
+import './Contact.css';
+
 const Contact = () => {
   return (
-    <div>
-      <div className="container-1">
-        <span className="become-aclient-get-discount">
-          Become a Client &amp; Get Discount
-        </span>
-        <div className="new-clients-will-get-20-discount">
-          New Clients will get 20% discount
-        </div>
-        <div className="group-231">
-          <span className="read-more-1">Contact</span>
+    <div className="contact-container">
+      <div className="contact-content">
+        <span className="contact-title">Become a Client &amp; Get Discount</span>
+        <div className="contact-subtitle">New Clients will get 20% discount</div>
+        <div className="contact-button-container">
+          <a href="mailto:dolapofadipe@highpark.in" className="contact-button">Contact Us</a>
         </div>
       </div>
     </div>
   );
 }
 
-export default Contact
+export default Contact;
