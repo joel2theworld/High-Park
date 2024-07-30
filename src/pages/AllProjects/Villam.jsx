@@ -7,18 +7,18 @@ import Vm1 from "../../assets/vm1.png"
 import Vm2 from "../../assets/vm2.png"
 import Vm3 from "../../assets/vm3.png"
 import Vm4 from "../../assets/vm4.png"
-
+import "./Villam.css"
 const Villam = () => {
   return (
     <div>
       <Header/>
       <HeroSection title="VILLA M" content="LAGOS, NIGERIA" />
       <div>
-      <div className="trimnell-slide">
+      <div className="villam-slide">
           <img src={Vm1}></img>
-          <img src={Vm2} className="tl1"></img>
+          <img src={Vm2}></img>
         </div>
-        <p className="trim-text">
+        <p className="villam-text">
           Trimnell Tower is a luxury high rise development situated in the
           exclusive enclave of Victoria Island Lagos. The development is a
           radical and bold architectural statement on the Lagos skyline that
@@ -35,9 +35,9 @@ const Villam = () => {
           Trimnell Tower is right for you and your family, while it offers
           investors an opportunity to receive high returns on their investments.
         </p>
-        <div className="trimnell-slide-2">
+        <div className="villam-slide-2">
           <img src={Vm3}></img>
-          <img src={Vm4} className="tr3"></img>
+          <img src={Vm4}></img>
           
         </div>
       </div>

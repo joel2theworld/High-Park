@@ -8,7 +8,7 @@ import Jasmine from "../../assets/jasmine.png";
 import Integrity from "../../assets/integrity.png";
 import Ark from "../../assets/ark.png";
 import Villam from "../../assets/villam.png";
-import ATL from "../../assets/atl3.jpeg"
+import ATL from "../../assets/atl1.png"
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
@@ -58,6 +58,15 @@ const Projects = () => {
               <img src={Ark} className="images" alt="The Ark" />
             </div>
           </Link>
+          {/* <Link to={"/projects/atlantic-nominees"}>
+            <div>
+              <div className="projtitle">
+                <p className="p-name">ATLANTIC NOMINEES</p>
+                <p className="p-loc">AJAH</p>
+              </div>
+              <img src={ATL} className="images" alt="Atlantic Nominees 01" />
+            </div>
+          </Link> */}
           <Link to={"/projects/villa-m"}>
             <div>
               <div className="projtitle">
@@ -65,15 +74,6 @@ const Projects = () => {
                 <p className="p-loc">LAGOS</p>
               </div>
               <img src={Villam} className="images" alt="Villa M" />
-            </div>
-          </Link>
-          <Link to={"/projects/atlantic-nominees"}>
-            <div>
-              <div className="projtitle">
-                <p className="p-name">ATLANTIC NOMINEES 01 </p>
-                <p className="p-loc">AJAH</p>
-              </div>
-              <img src={ATL} className="images" alt="Atlantic Nominees 01" />
             </div>
           </Link>
         </div>

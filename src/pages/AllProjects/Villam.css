@@ -1,25 +1,25 @@
-.ark-slide {
+.villam-slide {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3rem;
   }
   
-  .ark-slide img {
+  .villam-slide img {
     width: 35rem;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
-  .arkcity {
+  .villam-slide-2 {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3rem;
     padding: 3rem;
   }
-  .arkcity img{
-    width: 35rem;
-    border-radius: 30px;
+  .villam-slide-2 img{
+    width: 25rem;
+    border-radius: 20px;
   }
-  .ark-text {
+  .villam-text {
     font-family: "Montserrat";
     line-height: 2;
     text-justify: auto;

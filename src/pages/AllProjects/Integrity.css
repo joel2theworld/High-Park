@@ -1,0 +1,27 @@
+.int-slide {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+  
+  .int-slide img {
+    width: 35rem;
+    border-radius: 10px;
+  }
+  
+  .int-slide-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    padding: 3rem;
+  }
+  .int-slide-2 img{
+    width: 25rem;
+    border-radius: 10px;
+  }
+  .int-text {
+    font-family: "Montserrat";
+    line-height: 2;
+    text-justify: auto;
+    margin: 0 5rem 5rem 5rem;
+  }

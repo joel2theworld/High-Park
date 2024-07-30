@@ -14,11 +14,11 @@ const Ark = () => {
       <Header />
       <HeroSection title="THE ARK" content="LEKKI" />
       <div>
-        <div className="trimnell-slide">
+        <div className="ark-slide">
           <img src={Ark1}></img>
           <img src={Ark2} className="tl1"></img>
         </div>
-        <p className="trim-text">
+        <p className="ark-text">
           As Architect + Interior Architect, HIGH PARK was tasked by the
           client’s brief to create a ‘boutique living experience.’ The
           development is situated in the upmarket Lekki Neighborhood and

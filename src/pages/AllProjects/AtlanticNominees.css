@@ -1,0 +1,9 @@
+.atl-slide{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+.atl-slide img {
+    width: 35rem;
+    border-radius: 10px;
+  }
